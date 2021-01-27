@@ -1,4 +1,4 @@
 find
--f
-txt
+-E
+.sh
 \|

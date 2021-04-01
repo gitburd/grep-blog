@@ -1,0 +1,47 @@
+2020-02-20 08:42:01,565 [main] CONFIG: This is static configuration message.
+2020-02-20 08:42:01,682 [main] INFO: This is an informative message.
+2020-02-20 08:42:01,875 [main] INFO: This is significant.
+2020-02-20 08:42:05,216 [main] INFO: This message should make sense to end users.
+2020-02-20 08:43:06,338 [main] CONFIG: Config messages may be useful for debugging config related issues.
+2020-02-20 08:44:06,171 [main] INFO: This is not a fauilure or a warning.
+2020-02-20 08:44:07,823 [main] CONFIG: This is static configuration message.
+2020-02-20 08:44:08,302 [main] WARNING: Potential problem detected.
+2020-02-20 08:44:08,441 [main] INFO: This is an informative message.
+2020-02-20 08:44:08,441 [main] WARNING: Suspected casue of failure(s).
+2020-02-20 08:44:16,862 [main] CONFIG: This is static configuration message.
+2020-02-20 08:45:14,119 [main] INFO: This is an information message.
+2020-02-20 08:45:14,126 [main] INFO: This is not a fauilure or a warning.
+2020-02-20 08:45:14,228 [main] INFO: This message should make sense to end users.
+2020-02-20 08:45:14,231 [main] WARNING: Something unexpected happened.
+2020-02-20 08:45:14,338 [main] WARNING: Something may go wrong.
+2020-02-20 08:45:14,439 [main] ERROR: Critical information.
+  java.lang.Exception: Critical error!
+  at com.example.dir.Class.Function(Class.java:11)
+  at com.example.dir.Class.Function(Class.java:22)
+  at com.example.dir.Class.Function(Class.java:88)
+  at com.example.dir.Class.Function(Class.java:44)
+  at com.example.dir.Class.Function(Class.java:111)
+2020-02-20 08:47:16,352 [main] INFO: This is an informative message.
+2020-02-20 08:47:16,395 [main] CONFIG: This is static configuration message.
+2020-02-20 08:47:16,522 [main] WARNING: This is important.
+2020-02-20 08:47:16,619 [main] INFO: Working as expected.
+2020-02-20 08:47:17,004 [main] WARNING: Something may go wrong.
+2020-02-20 08:47:17,097 [main] ERROR: Something went wrong.
+  java.lang.Exception: Critical error!
+  at com.example.dir.Class.Function(Class.java:17)
+  at com.example.dir.Class.Function(Class.java:88)
+  at com.example.dir.Class.Function(Class.java:131)
+2020-02-20 08:49:17,236 [main] ERROR: Error messages indicate fatal errors.
+  java.lang.Exception: Critical error!
+  at com.example.dir.Class.Function(Class.java:17)
+  at com.example.dir.Class.Function(Class.java:88)
+  at com.example.dir.Class.Function(Class.java:131)
+2020-02-20 08:49:18,592 [main] INFO: This is significant.
+2020-02-20 08:49:18,592 [main] WARNING: DON'T PANIC!
+2020-02-20 08:49:18,595 [main] ERROR: This is critically important.
+  java.lang.Exception: Critical error!
+  at com.example.dir.Class.Function(Class.java:13)
+  at com.example.dir.Class.Function(Class.java:72)
+  at com.example.dir.Class.Function(Class.java:88)
+  at com.example.dir.Class.Function(Class.java:52)
+  at com.example.dir.Class.Function(Class.java:36)

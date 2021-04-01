@@ -1,3 +1,2 @@
-^$|^#
-sed
-silence
+INFO
+CONFIG
